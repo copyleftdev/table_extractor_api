@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+pandas = "*"
+pymupdf = "*"
+redis = "*"
+fpdf2 = "*"
+requests = "*"
+pdfplumber = "*"
+install = "*"
+reportlab = "*"
+pytest = "*"
+deepdiff = "*"
+slowapi = "*"
+fastapi = {extras = ["all"], version = "*"}
+python-jose = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
